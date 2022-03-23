@@ -28,6 +28,7 @@ class rsa{
         char msg1[]=msg.toCharArray();
         for(int i=0;i<msg1.length;i++){
             pt[i]=msg1[i];
+            //prints ASCII equivalent
             //System.out.println(pt[i]);
         }
         for(d=0;d<z;d++){
